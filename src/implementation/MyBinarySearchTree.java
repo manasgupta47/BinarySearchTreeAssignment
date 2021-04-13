@@ -104,5 +104,18 @@ public class MyBinarySearchTree<E extends Comparable<E>> implements BinarySearch
         }
     }
 
+    //
+    @Override
+    public void delete(E data) {
+    }
+
+    @Override
+    public int height(Node<E> node) {
+        return 0;
+    }
+
+    public boolean isEmpty() {
+        return root == null;
+    }
 
 }
